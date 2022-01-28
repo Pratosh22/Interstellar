@@ -1,0 +1,72 @@
+{
+  "destinations": [
+    {
+      "name": "MILLER PLANET",
+      "images": {
+        "png": "./images/Black_hole.png",
+        "webp": "./images/Black_hole.webp"
+      },
+      "description": "Miller's Planet is a planet and the first planet in the system orbiting Gargantua. Miller's Planet takes its name from Dr. Laura Miller, who landed on the planet and activated the thumbs up beacon. It is also the first location for the crew of the Endurance visit.",
+      "distance":"3000 Light years",
+      "travel": "4 years"
+    },
+    {
+      "name": "MANN'S PLANET",
+      "images": {
+        "png": "./images/planet-2.png",
+        "webp": "./images/planet-2.webp"
+      },
+      "description": "Mann is an ice planet that orbits the black hole Gargantua. The planet is named after the first astronaut to land there named Dr. Mann. No surface was ever found, in fact, the planet is honeycombed with seemingly endless layers of frozen ice-cloud crevices and mountains.",
+       "distance":"3500 Light years",
+       "travel": "4.5 years"
+    },
+    {
+      "name": "EDMUND PLANET",
+      "images": {
+        "png": "./images/planet-3.png",
+        "webp": "./images/planet-3.webp"
+      },
+      "description":"Edmunds is a habitable planet in the star-system that also contains Miller and Mann. While Miller and Mann orbit close to Gargantua, Edmunds lies farther away, likely orbiting Pantagruel, a main-sequence star a bit further away from Gargantua- a factor that Dr. Amelia Brand presents as an argument for why Edmunds might be more favourable than Mann for humanity to inhabit.",
+      "distance": "4000 Light years",
+      "travel": "5 years"
+    }
+  ],
+  "crew": [
+    {
+      "name": "COOPER",
+      "images": {
+        "png": "./images/cooper-removebg-preview.png",
+        "webp": "./assets/crew/image-douglas-hurley.webp"
+      },
+      "role": "MISSION COMMANDER",
+      "bio":"Joseph A. Cooper is a trained NASA pilot with an engineering background, and the pilot of the interstellar expedition. Cooper has two children, Tom Cooper and Murphy Cooper."
+    },
+    {
+      "name": "Amelia Brand",
+      "images": {
+        "png": "./images/brand_ccexpress-removebg-preview.png",
+        "webp": "./assets/crew/image-mark-shuttleworth.webp"
+      },
+      "role": "Mission Specialist",
+      "bio": "Dr. Amelia Brand is the chief scientist/biologist of the expedition being sent through the wormhole attempting to relocate the human race. She is the daughter of Dr. John Brand. She has a niece and nephew from her brother."
+    },
+    {
+      "name": " Romilly",
+      "images": {
+        "png": "./images/romily_ccexpress.png",
+        "webp": "./assets/crew/image-victor-glover.webp"
+      },
+      "role": "Science Specialists",
+      "bio": "Romilly was a physicist and astronaut particicipating in the Endurance mission through the wormhole. Romilly was very fearful of space travel and is bothered by the concept that only a few millimeters of bulkhead separate himself and his fellow astronauts from the vacuum of space."
+    },
+    {
+      "name": "DOYLE",
+      "images": {
+        "png": "./images/doyle.png",
+        "webp": "./assets/crew/image-anousheh-ansari.webp"
+      },
+      "role": "Science Specialists",
+      "bio": "Doyle was a geographer and astronaut taking part in the Endurance space exploration mission through the wormhole. He often disagrees with Cooper."
+    }
+  ]
+}

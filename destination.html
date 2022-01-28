@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon-space-shuttle.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <link rel="stylesheet" type="text/css" href="css/destination.css">
+   <title>Space Tourism</title>
+</head>
+
+<body>
+   <header>
+      <a href="./index.html">
+         <img src="./images/NASA_logo.svg.png" id="logo" style="width:100px;">
+      </a>
+      <div id="hr"></div>
+      <nav id="navbar-main">
+         <ul>
+            <li>
+               <a href="./index.html" class="nav-text">
+                  <span>00</span> HOME
+               </a>
+            </li>
+            <li>
+               <a href="./destination.html" class="nav-text active">
+                  <span>01</span> DESTINATION
+               </a>
+            </li>
+            <li>
+               <a href="./crew.html" class="nav-text">
+                  <span>02</span> CREW
+               </a>
+            </li>
+         </ul>
+      </nav>
+      <button id="nav-toggle">
+         <img src="images/icon-hamburger.svg">
+      </button>
+   </header>
+   <main>
+      <section class="grid-cell first">
+         <h5 class="heading-5">
+            <span>01</span> DESTINATION
+         </h5>
+         <img src="./images/Black_hole.png" style="width:300px;">
+      </section>
+      <section class="grid-cell second">
+         <nav id="navbar-secondary">
+            <ul>
+               <li>
+                  <button class="nav-text active">MILLER PLANET</button>
+               </li>
+               <li>
+                  <button class="nav-text">MANN'S PLANET</button>
+               </li>
+               <li>
+                  <button class="nav-text">EDMUNDS PLANET</button>
+               </li>
+            </ul>
+         </nav>
+         <h1 class="heading-1">MILLER PLANET</h1>
+         <p class="body-text">
+            Miller's Planet is a planet and the first planet in the system orbiting Gargantua. Miller's Planet takes its
+            name from Dr. Laura Miller, who landed on the planet and activated the "thumbs up" beacon. It is also the
+            first location for the crew of the Endurance visit.
+         </p>
+         <div id="numerical-info">
+            <div>
+               <h6 class="subheading-2">AVG. DISTANCE</h6>
+               <h4 class="heading-4" id="distance">3000 Light years l</h4>
+            </div>
+            <div>
+               <h6 class="subheading-2">EST. TRAVEL TIME</h6>
+               <h4 class="heading-4" id="travel-time">4 years</h4>
+            </div>
+         </div>
+      </section>
+   </main>
+   <script type="module" src="./js/destination.js"></script>
+</body>
+
+</html>
